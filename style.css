@@ -1,22 +1,23 @@
 body{
     font-family: Arial;
-    text-align: center;
+    margin:0;
     background:#f2f2f2;
 }
 
-.gallery{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:20px;
+header{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+section{
+    background:white;
+    margin:20px;
     padding:20px;
-}
-
-.gallery img{
-    width:100%;
     border-radius:10px;
-    transition:0.3s;
 }
 
-.gallery img:hover{
-    transform:scale(1.05);
+h2{
+    color:#333;
 }
